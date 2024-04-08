@@ -7,29 +7,8 @@
 
 <script type="text/javascript">
 
-    (function(win,doc){
-        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
-        if (!win.alimamatk_show) {
-            s.charset = "gbk";
-            s.async = true;
-            s.src = "https://alimama.alicdn.com/tkapi.js";
-            h.insertBefore(s, h.firstChild);
-        };
-        var o = {
-            pid: "mm_30528184_10632191_35014991",/*推广单元ID，用于区分不同的推广渠道*/
-            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
-            unid: "",/*自定义统计字段*/
-            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
-        };
-        win.alimamatk_onload = win.alimamatk_onload || [];
-        win.alimamatk_onload.push(o);
-    })(window,document);
-
-$(document).ready(function(){
-	$("#header .link1").mouseover(function(){
-		$("#s11").css("color","#cc0000");
-	});
-});
+   
+    
 </script>
 <style>
 .pro{clear: both;background-color: #F7F7F7;height:41px; line-height: 41px;text-align:center;margin:20px auto 0px auto;width:1100px;}
